@@ -41,6 +41,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+.titulos {
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
 .brigadeiro {
     background: darkred;
     color: white;
@@ -50,6 +56,11 @@
     justify-content: center;
     padding: 60px;
     gap: 60px;
+}
+
+.titulo-cardapio {
+    background: darkred;
+    color: #bbbbbb;
 }
 
 .descricao-brigadeiro {
@@ -73,6 +84,98 @@
     border-radius: 10px;
 }
 
-.brigadeiro-reverse{
+.brigadeiro-reverse {
     flex-direction: row-reverse;
+}
+
+.caixas {
+    background: #bbbbbb;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.titulo-combos {
+    background: #bbbbbb;
+    color: darkred
+}
+
+.imagem-caixa {
+    text-align: center;
+}
+
+.imagem-caixa img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.descricao-caixa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    align-items: center;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.pedidos {
+    background: darkred;
+}
+
+.informacoes-pedido {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding:100px;
+    align-items: center;
+
+
+
+
+}
+.titulo-pedidos{
+    color: #bbbbbb;
+}
+.pedidos p {
+    color: #bbbbbb;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.botaozap img {
+    width: 100px;
+    height: 100px;
+}
+
+.sobrenos{
+    background: #bbb;
+}
+
+.informacoes-sobrenos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    gap: 30px;
+    font-size: 20px;
+    color:darkred;
+}
+
+.informacoes-sobrenos img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+
+
+footer{
+    background: darkred;
+    color: #bbbbbb;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
 }
