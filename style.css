@@ -6,17 +6,14 @@
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
 }
 
 .cabecalho {
-    background: #bbbbbb;
     display: flex;
-    justify-content: space-around;
-
-
+    justify-content: space-evenly;
 }
 
 .cabecalho nav {
@@ -24,43 +21,52 @@
     justify-content: flex-end;
     gap: 20px;
     align-items: center;
-    color: black;
+    color: #F6EEE0;
     font-size: 28px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.fundo {
+    background: url("imagens/chocolate_granulado.png");
+    background-size: cover;
 }
 
 .home {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)),
-        url("imagens/diversos.jpg");
+    height: 250px;
     background-size: cover;
-    color: white;
+    color: #F6EEE0;
     font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Fredoka One', cursive;
+}
+
+.home p {
+    font-size: 30px;
 }
 
 .titulos {
     font-size: 50px;
     padding: 30px;
     text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color: #F6EEE0;
 }
 
 .brigadeiro {
-    background: darkred;
-    color: white;
+    background: #A45C40;
+    color: #F6EEE0;
     flex-direction: row;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px;
+    padding: 15px;
     gap: 60px;
 }
 
 .titulo-cardapio {
-    background: darkred;
-    color: #bbbbbb;
+    background: #A45C40;
 }
 
 .descricao-brigadeiro {
@@ -70,18 +76,20 @@
     font-size: 20px;
     align-items: center;
     width: 400px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Fredoka One', cursive;
     text-align: center;
 }
 
 .descricao-brigadeiro p {
     font-size: 20px;
+    font-family: 'Roboto';
 }
 
 .imagem-brigadeiro img {
     width: 300px;
     height: 300px;
-    border-radius: 10px;
+    border:8px solid #C38370;
+    border-radius: 10%;
 }
 
 .brigadeiro-reverse {
@@ -89,15 +97,14 @@
 }
 
 .caixas {
-    background: #bbbbbb;
+    background: #C38370;
     display: flex;
     justify-content: space-evenly;
     padding: 60px;
 }
 
 .titulo-combos {
-    background: #bbbbbb;
-    color: darkred
+    background: #C38370;
 }
 
 .imagem-caixa {
@@ -107,7 +114,8 @@
 .imagem-caixa img {
     width: 300px;
     height: 300px;
-    border-radius: 10px;
+    border:8px solid #A45C40;
+    border-radius: 10%;
 }
 
 .descricao-caixa {
@@ -118,64 +126,69 @@
     font-size: 20px;
     align-items: center;
     width: 400px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Fredoka One', cursive;
 
 }
-
+.descricao-caixa p{
+    font-family: 'Roboto';
+}
 .pedidos {
-    background: darkred;
+    background: #A45C40;
 }
 
 .informacoes-pedido {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 100px;
-    padding:100px;
+    justify-content:center;
+    gap: 60px;
+    padding: 40px;
+    padding-right: 100px;
     align-items: center;
-
-
-
-
 }
-.titulo-pedidos{
-    color: #bbbbbb;
-}
+
 .pedidos p {
-    color: #bbbbbb;
-    padding: 5px;
+    color: #F6EEE0;
+    padding: 8px;
     font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
 }
 
 .botaozap img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    padding-top: 30px;
+
 }
 
-.sobrenos{
-    background: #bbb;
+.sobrenos {
+    background: #E4B7A0;
 }
 
-.informacoes-sobrenos{
+.titulo-sobrenos {
+    color: #A45C40;
+}
+
+.informacoes-sobrenos {
     display: flex;
     justify-content: space-evenly;
     padding: 100px;
     gap: 30px;
     font-size: 20px;
-    color:darkred;
+    color: #A45C40;
+    font-family: 'Roboto';
 }
 
-.informacoes-sobrenos img{
-    width: 500px;
-    border-radius: 20px;
+.informacoes-sobrenos img {
+    width: 400px;
 }
 
-
-
-footer{
-    background: darkred;
-    color: #bbbbbb;
-    font-size: 20px;
+footer {
+    background: #A45C40;
+    color: #F6EEE0;
+    font-size: 14px;
+    font-family: 'Roboto';
     text-align: center;
     padding: 10px;
+
 }
