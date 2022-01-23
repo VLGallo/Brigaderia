@@ -30,8 +30,8 @@ Para prototipação e criação do conceito:
 - ![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white)
 
 Para estilização:
-- [shapedivider.app](https://www.shapedivider.app/) → Criação de divisores de formas estilizados
-- [Hero Pattern](https://heropatterns.com/) → Criação de patterns de fundo incríveis!
+- 📚 [Shapedivider](https://www.shapedivider.app/) → Criação de divisores de formas estilizados
+- 📚 [Hero Pattern](https://heropatterns.com/) → Criação de patterns de fundo incríveis!
 
 
 ## Protótipo e live demo
