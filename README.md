@@ -29,10 +29,15 @@ Para prototipação e criação do conceito:
 - ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 - ![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white)
 
+Para estilização:
+- 📚 [Shapedivider](https://www.shapedivider.app/) → Criação de divisores de formas estilizados
+- 📚 [Hero Pattern](https://heropatterns.com/) → Criação de patterns de fundo incríveis!
+
+
 ## Protótipo e live demo
 
 - Acesse o nosso projeto do figma [aqui](#)
-- Acesse live demo pode ser acessado [aqui](#)
+- Acesse live demo pode ser acessado [aqui](https://vlgallo.github.io/Brigaderia/)
 
 ## 📄 Licença
 
