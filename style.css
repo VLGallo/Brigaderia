@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     color: inherit;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .logo {
     width: 200px;
     height: 200px;
@@ -23,12 +27,14 @@
     align-items: center;
     color: #F6EEE0;
     font-size: 28px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One';
+    font-weight: normal;
 }
 
 .fundo {
     background: url("imagens/chocolate_granulado.png");
     background-size: cover;
+    background-color: #A45C40;
 }
 
 .home {
@@ -37,21 +43,29 @@
     align-items: center;
     height: 250px;
     background-size: cover;
+}
+
+.home h1 {
     color: #F6EEE0;
-    font-size: 50px;
-    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    font-family: 'Fredoka One';
+    font-weight: 500;
 }
 
 .home p {
+    color: #F6EEE0;
     font-size: 30px;
+    font-family: 'Outfit';
+    font-weight: bold;
 }
 
 .titulos {
     font-size: 50px;
     padding: 30px;
     text-align: center;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One';
     color: #F6EEE0;
+    font-weight: normal;
 }
 
 .brigadeiro {
@@ -73,23 +87,34 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 20px;
+    font-size: 30px;
     align-items: center;
     width: 400px;
-    font-family: 'Fredoka One', cursive;
+
+}
+
+.descricao-brigadeiro h3 {
+    font-family: 'Fredoka One';
+    font-weight: 500;
     text-align: center;
 }
 
 .descricao-brigadeiro p {
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Outfit';
+    text-align: center;
 }
 
 .imagem-brigadeiro img {
     width: 300px;
     height: 300px;
-    border:8px solid #C38370;
+    border: 8px solid #C38370;
     border-radius: 10%;
+}
+
+.imagem-brigadeiro:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .brigadeiro-reverse {
@@ -101,20 +126,28 @@
     display: flex;
     justify-content: space-evenly;
     padding: 60px;
+    overflow: auto;
 }
 
 .titulo-combos {
     background: #C38370;
+    color: #391500;
 }
 
 .imagem-caixa {
     text-align: center;
 }
 
+.imagem-caixa:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
 .imagem-caixa img {
     width: 300px;
-    height: 300px;
-    border:8px solid #A45C40;
+    height: 400px;
+    border: 8px solid #A45C40;
     border-radius: 10%;
 }
 
@@ -126,12 +159,15 @@
     font-size: 20px;
     align-items: center;
     width: 400px;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One';
+    color: #391500;
 
 }
-.descricao-caixa p{
-    font-family: 'Roboto';
+
+.descricao-caixa p {
+    font-family: 'Outfit';
 }
+
 .pedidos {
     background: #A45C40;
 }
@@ -139,7 +175,7 @@
 .informacoes-pedido {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     gap: 60px;
     padding: 40px;
     padding-right: 100px;
@@ -150,7 +186,7 @@
     color: #F6EEE0;
     padding: 8px;
     font-size: 20px;
-    font-family: 'Roboto';
+    font-family: 'Outfit';
     text-align: center;
 }
 
@@ -159,6 +195,11 @@
     height: 150px;
     padding-top: 30px;
 
+}
+
+.botaozap img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .sobrenos {
@@ -172,23 +213,77 @@
 .informacoes-sobrenos {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 100px;
     gap: 30px;
     font-size: 20px;
-    color: #A45C40;
-    font-family: 'Roboto';
+    font-weight: bold;
+    color: #391500;
+    font-family: 'Outfit';
+    text-align: justify;
 }
 
 .informacoes-sobrenos img {
     width: 400px;
+    height: 400px;
+}
+
+.informacoes-sobrenos img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 footer {
     background: #A45C40;
     color: #F6EEE0;
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Outfit';
     text-align: center;
     padding: 10px;
+
+}
+
+
+/* Teste de shape */
+.divisor {
+    position: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.divisor svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 110px;
+    transform: rotateY(180deg)
+}
+
+.divisor .shape-fill {
+    fill: #A45C40;
+}
+
+.combos-pedidos {
+    transform: rotate(180deg);
+    background: #C38370;
+
+}
+
+.pedidos-sobre {
+    background: #C38370;
+
+}
+
+
+
+
+/* Teste de background */
+.pattern {
+    background-color: #e4b7a0;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm20 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 37a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10-17h20v20H20V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' fill='%23a45c40' fill-opacity='0.08' fill-rule='evenodd'/%3E%3C/svg%3E");
+
 
 }
